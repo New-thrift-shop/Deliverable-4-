@@ -8,12 +8,12 @@ font-family : Favorit;
 
 /* General style rules for fonts and colors */
 body {
-  font-family: 'Lora', serif;
+  font-family: 'Favorit';
   font-size: 18px;
   margin: 0px;
 }
 h1, h2, h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Favorit';
   font-weight: bold;
 }
 a {
