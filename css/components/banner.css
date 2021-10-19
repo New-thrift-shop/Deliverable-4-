@@ -1,0 +1,8 @@
+.banner {
+  /* 1. Set a background image */
+  background-image: url(../../images/background.jpg);   
+  /* 2. Make the background image cover the banner div */
+	background-size: cover;     
+  /* 3. Center the image */
+	background-position: center;
+}
