@@ -4,3 +4,15 @@
   width: 700px;
   margin: 0 auto;
 }
+
+@media (max-width:  760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width:  500px) {
+	.container {
+		width: 400px;
+	}
+}
