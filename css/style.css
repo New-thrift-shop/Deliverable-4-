@@ -1,11 +1,25 @@
 /* General style rules for fonts and colors */
 body {
-  font-family: 'Favorit';
+  font-family: Favorit;
   font-size: 18px;
   margin: 0px;
   text-align: center;
   margin: 0;
   margin-top: 0;
+}
+
+h1 {
+	font-family: Ramela;
+}
+h2 {
+  font-family: Favorit';
+  font-weight: bold;
+}
+
+h3 {
+  font-family: Favorit';
+  font-weight: lighter;
+  font-size: 14px;
 }
 
 a {
