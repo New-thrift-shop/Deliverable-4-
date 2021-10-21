@@ -1,8 +1,14 @@
 .banner {
   /* 1. Set a background image */
-  background-image: url(../../images/background.jpg);   
+  background-image: url(../../images/logo.jpg);   
   /* 2. Make the background image cover the banner div */
-	background-size: cover;     
+  background-size: 60px 60px;     
   /* 3. Center the image */
-	background-position: center;
+  background-position: left;
+}
+
+.banner {
+  width: ;
+  justify-content: space-around;
+  align-items: flex-start;
 }
