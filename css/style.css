@@ -5,23 +5,41 @@ font-family : Favorit;
 @import url("components/container.css");
 @import url("components/avatar.css");
 @import url("components/banner.css");
-@import url("components/primary button.css");
+@import url("components/button.css");
+@import url("components/card.css");
 
 /* General style rules for fonts and colors */
 body {
   font-family: 'Favorit';
   font-size: 18px;
   margin: 0px;
+  text-align: center;
 }
-h1, h2, h3 {
+
+h1 {
+	font-family: Ramela;
+}
+h2 {
   font-family: 'Favorit';
   font-weight: bold;
 }
-a {
-  text-decoration: none;
+
+h3 {
+  font-family: 'Favorit';
+  font-weight: lighter;
+  font-size: 14px;
 }
 
-/* Container /* 
-.container {
-  width 
+
+a {
+  text-decoration: none;
+  font-family: favorit;
 }
+
+P {
+ font-family: favorit;
+ font-weight: lighter;
+ font-size: 14px
+
+}
+
