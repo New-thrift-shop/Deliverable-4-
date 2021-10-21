@@ -1,9 +1,10 @@
-btn-blue {
+.Button{
 	background-color: #002FA7;
 	padding: 15px 20px;
 	border-radius: 4px;
-	color: white;
+	color: #FFD700;
 	font-weight: bold; 
 	font-family: Favorit;
 
 }
+
