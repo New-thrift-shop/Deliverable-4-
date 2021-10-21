@@ -9,15 +9,16 @@ body {
 }
 
 h1 {
-	font-family: Ramela;
+  font-family: Ramela;
 }
 h2 {
-  font-family: Favorit';
+   font-family: Favorit;
   font-weight: bold;
+
 }
 
 h3 {
-  font-family: Favorit';
+  font-family: Favorit;
   font-weight: lighter;
   font-size: 14px;
 }
