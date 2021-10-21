@@ -10,4 +10,11 @@ body {
 
 a {
   text-decoration: none;
+  font-family: Favorit;
+}
+
+P {
+ font-family: favorit;
+ font-weight: lighter;
+ font-size: 14px
 }
