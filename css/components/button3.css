@@ -1,0 +1,19 @@
+.container-bouton {
+	display: flex;
+}
+
+.cta {
+	background-color: #002FA7;
+	border-radius: 6px;
+	height: 100%;
+	border-color: #FFD700;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.cta a {
+	display: flex;
+	align-items: center;
+	color: #FFD700;
+	height: 100%;
+	padding: 6px 12px;
+}
