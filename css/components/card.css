@@ -4,6 +4,8 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0, 2);
   max-width: 300px;
   margin: auto;
+  text-align: center;
+  font-family: favorit;
 }
 .card img {
   width: 100%;
@@ -14,6 +16,7 @@
   font-weight: lighter;
   font-family: Favorit;
   text-align: center;
+  
 }
 
 .card list-inline {
@@ -23,5 +26,29 @@
 }
 
 .card list-inline li {
+  display: 20px;
+}
+
+/* Product card */ 
+
+.product-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: favorit;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.product-card list-inline {
+  list-style: none;
+  display: inline;
+}
+
+.product-card list-inline li {
   display: 20px;
 }
