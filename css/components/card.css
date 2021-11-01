@@ -26,7 +26,8 @@
 }
 
 .list-inline li {
-  display: 20px;
+  display: inline;
+  padding: 10px;
 }
 
 /* Product card */ 
@@ -50,5 +51,6 @@
 }
 
 .list-inline li {
-  display: 20px;
+  display: inline;
+  padding: 10px;
 }
