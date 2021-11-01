@@ -1,3 +1,5 @@
+/* Simple card */
+
 .card {
 	display: flex;
 	flex-direction: column;
