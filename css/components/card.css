@@ -6,6 +6,7 @@
   margin: auto;
   text-align: center;
   font-family: favorit;
+  flex-direction: row;
 }
 .brand-card img {
   width: 100%;
@@ -38,6 +39,7 @@
   margin: auto;
   text-align: center;
   font-family: favorit;
+  flex-direction: row;
 }
 
 .price {
