@@ -1,0 +1,16 @@
+h1 {
+	margin: auto;
+	padding: 0;
+	font-family: Favorit;
+	font-size: 22px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.header {
+	width: 100%
+	padding: 10px;
+	text-align: left;
+	background: #002FA7;
+	color: white;
+}
