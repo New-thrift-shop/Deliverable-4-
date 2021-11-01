@@ -1,31 +1,31 @@
 /* Simple card */
 
-.card {
+.brand-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0, 2);
   max-width: 300px;
   margin: auto;
   text-align: center;
   font-family: favorit;
 }
-.card img {
+.brand-card img {
   width: 100%;
   height: auto;
 }
 
-.card p {
+.brand-card p {
   font-weight: lighter;
   font-family: Favorit;
   text-align: center;
   
 }
 
-.card list-inline {
+.list-inline {
   list-style: none;
   padding-left: 0px;
   display: inline;
 }
 
-.card list-inline li {
+.list-inline li {
   display: 20px;
 }
 
@@ -44,11 +44,11 @@
   font-size: 22px;
 }
 
-.product-card list-inline {
+.list-inline {
   list-style: none;
   display: inline;
 }
 
-.product-card list-inline li {
+.list-inline li {
   display: 20px;
 }
