@@ -7,7 +7,8 @@
 @import url(css/components/banner.css);
 @import url(css/components/card.css);
 @import url(css/components/container.css);
-
+@import url(css/components/bar-blue.css);
+@import url(css/components/Dropdown-menu.css);
 /* General style rules for fonts and colors */
 body {
   font-family: Favorit;
