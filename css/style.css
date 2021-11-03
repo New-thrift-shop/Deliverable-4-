@@ -1,3 +1,13 @@
+@import url(css/components/list.css);
+@import url(css/components/button2.css);
+@import url(css/components/button3.css);
+@import url(css/components/button4.css);
+@import url(css/components/button5.css);
+@import url(css/components/button.css);
+@import url(css/components/banner.css);
+@import url(css/components/card.css);
+@import url(css/components/container.css);
+
 /* General style rules for fonts and colors */
 body {
   font-family: Favorit;
