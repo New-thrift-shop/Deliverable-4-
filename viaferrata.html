@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Thrilling 
+    Peaks</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/25bbea27ea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <div class="header">
+      <div class="container">
+      <a href="homepage.html" class="btn-green">Home Page</a>
+
+    <div class="dropdown">
+        <button class="dropbtn">Activities</button>
+        <div class="dropdown-content">
+            <a href="viaferrata.html">Via Ferrata</a>
+            <a href="#">Tree Climbing</a>
+            <a href="#">Canoe</a>
+            <a href="#">Hikes</a>
+            <a href="#">Bungee Jumping</a>
+        </div>
+    </div>
+
+      <a href="booking.html" class="btn-green">Booking</a>
+      <a href="yourexperiences.html" class="btn-green">Your Experiences</a>
+
+        <div class="dropdown">
+        	<button class="dropbtn">About Us</button>
+        	<div class="dropdown-content">
+            	<a href="aboutus.html">Our Company</a>
+            	<a href="teammembers.html">Our Team Members</a>
+        	</div>
+      	</div>      
+        
+        </div>
+    </div>
+
+    
+    <div class="container">
+    
+    <h1>Via Ferrata</h1>
+
+    <p>Characteristics of the activity : </p>
+    
+    <ul>
+      <li>Levels :  Easy, Medium and Hard</li>
+      <li>Age recquired : 10 years old minimum</li>
+      <li>Duration : From 2 to 4 hours</li>
+      <li>Number of partitipants allowed : Up to 6 participants</li>
+      <li>Physical recquirement : Not scared of hights </li>
+      <li>Equipment required : Nothing</li>
+      <li>What to bring : Water and sunglasses</li>
+      <li>Price : 30€ (Children) and 40€ (Adults)</li>      
+    </ul>
+
+    <img src="images/viaferrata1.jpg" width="350px" alt="Via Ferrata 1">
+    <img src="images/viaferrata2.jpg" width="350px" alt="Via Ferrata 2">
+
+    <p> A via ferrata is a climbing route that employs steel cables, rungs or ladders, fixed to the rock to which the climbers affix a harness with two leashes, which allows the climbers to secure themselves to the metal fixture and limit any fall. The cable and other fixtures, such as iron rungs (stemples), pegs, carved steps, and ladders and bridges, provide both footings and handholds, as well. This allows climbing on otherwise dangerous routes without the risks of unprotected scrambling and climbing or the need for technical climbing equipment. They expand the opportunities for accessing difficult peaks as an alternative to rock climbing and mountaineering, both of which require higher skills and more specialized equipment.
+    </p>
+
+
+
+
+
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <img src="images/viaferrata1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/viaferrata2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/viaferrata3.jpeg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+
+
+<script>
+  
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+
+
+<a href="yourexperiences.html"class="btn-pink"> Your Experiences </a>
+<a href="booking.html"class="btn-pink"> Booking </a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+  <footer>
+        
+    <h3> Contact us</h3>
+    <ul class="list-inline"> 
+      <li>
+        <a href="" target="_blank" > 
+        <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+
+      <li>
+        <a href="" target="_blank"> 
+        <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+
+      <li>
+        <a href="" target="_blank"> 
+        <i class="fab fa-tiktok"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+
+
+</body>
+
+
+</html>
