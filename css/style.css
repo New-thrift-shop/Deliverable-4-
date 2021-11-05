@@ -1,0 +1,59 @@
+@import url(components/list.css);
+@import url(components/button.css);
+@import url(components/banner.css);
+@import url(components/card.css);
+@import url(components/container.css);
+@import url(components/bar-blue.css);
+@import url(components/Dropdown-menu.css);
+
+/* General style rules for fonts and colors */
+body {
+  font-family: Favorit;
+  font-size: 18px;
+  margin: 0px;
+  text-align: center;
+  margin: 0;
+  margin-top: 0;
+}
+
+h1 {
+  font-family: Ramela;
+}
+
+h2 {
+   font-family: Favorit;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: Favorit;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  font-family: Favorit;
+}
+
+P {
+ font-family: favorit;
+ font-weight: lighter;
+ font-size: 14px
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: black
+}
+

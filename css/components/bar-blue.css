@@ -1,0 +1,17 @@
+.bar-blue {
+	width: 100%;
+	padding: 5px;
+	text-align: left;
+	background: #002FA7;
+	color: white;
+	height: 50px;
+}
+
+.bar-blue h1 {
+	margin: auto;
+	font-family: Favorit;
+	font-size: 22px;
+	padding: 5px;
+	font-weight: bold;
+	background-position : center;
+}
