@@ -1,12 +1,12 @@
 /* Dropdown-menu.css */
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Favorit,
 }
 
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #002FA7;
 }
 
 .navbar a {
@@ -35,7 +35,7 @@ body {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+   background-color: #FFD700;
 }
 
 .dropdown-content {
