@@ -82,6 +82,75 @@
   flex-wrap: wrap;
 }
 
+/* Hermes Card */ 
+
+.hermescards {
+  display: flex;
+}
+
+.cardpicture {
+  display: inline-flex;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+  margin: 0px;
+  max-width: 600px;
+}
+
+.cardpicture img {
+  width: 500px;
+  height: 500px;
+  border-radius: 6px;
+}
+
+.cardtext {
+  display: inline-flex;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  flex-basis: 150px;
+  flex-grow: 1;
+  margin: 0px;
+  flex-direction: column;
+  max-width: 1000px;
+}
+
+.cardtext h3 {
+  font-weight: 400;
+  font-family: Favorit;
+  font-size: 18px;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.cardtext p {
+  font-family: Favorit;
+  font-weight: lighter;
+  font-size: 15px;
+  flex-direction: column;
+}
+.cardtext h4 {
+  font-family: Favorit;
+  font-weight: lighter;
+  font-size: 15px;
+  color: red;
+  flex-direction: column;
+}
+
+.cardtext h5 {
+  font-family: Favorit;
+  font-weight: lighter;
+  font-size: 15px;
+  color: #01D758;
+  flex-direction: column;
+}
+
 /* Card */ 
 
 .card {
