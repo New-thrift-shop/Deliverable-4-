@@ -101,7 +101,7 @@ font-size: 20px;
   display : inline-block;
 }
 
-footer {
+.footer {
   background-color: #002FA7;
   position: relative;
   bottom: 0;
