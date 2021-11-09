@@ -4,7 +4,7 @@
 	text-align: left;
 	background: #002FA7;
 	color: white;
-	height: 25px;
+	height: 35px;
 }
 
 .bar-blue h2 {
@@ -12,6 +12,8 @@
 	font-family: Favorit;
 	font-size: 22px;
 	padding: 5px;
-	font-weight: bold;
+	font-weight: 400;
 	background-position : center;
+	margin-bottom: 10px;
+	margin-left: 20px;
 }
