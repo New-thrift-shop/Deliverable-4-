@@ -93,6 +93,7 @@
 
 /* Hermes button */ 
 .button-favoris {
+	background-color: black;
 	color: white;
 	border-radius: 6px;
 	height: 40px;
@@ -101,10 +102,11 @@
 	padding-right: 40px;
 	font-size: 16px;
 	font-family: favorit;
+	font-weight: lighter;
 	display: flex;
 	align-items: center;
 	margin: 10px;
-	margin-left: 1000px;
+	margin-left: 850px;
 	border-color: black;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
