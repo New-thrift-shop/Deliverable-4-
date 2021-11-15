@@ -3,6 +3,8 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	margin-left: 17px;
+	margin-right: 17px;
 }
 
 .banner img {
