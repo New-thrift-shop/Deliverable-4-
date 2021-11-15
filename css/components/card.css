@@ -151,6 +151,13 @@
   flex-direction: column;
 }
 
+/*panier*/
+
+.paniercards{ 
+  display: flex;
+
+ }
+
 /* Card */ 
 
 .card {
