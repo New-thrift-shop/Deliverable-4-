@@ -100,6 +100,27 @@ font-size: 20px;
 .reseaux {
   display : inline-block;
 }
+
+/* Panier.html*/ 
+
+.hline {
+  width: 90%;
+  height: 1px;
+  background: black;
+  margin-left: 70px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.greyhline {
+  width: 69%;
+  height: 1px;
+  background: grey;
+  margin-left: 380px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 footer {
   background-color: #002FA7;
   position: relative;

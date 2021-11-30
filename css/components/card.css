@@ -155,8 +155,145 @@
 
 .paniercards{ 
   display: flex;
-
+  flex-wrap: wrap;
+  flex-grow: 1;
+  flex-basis: 150px;
  }
+
+.cardpanier1 {
+  display: flex;
+  max-width: 400px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  flex-basis: 150px;
+  flex-grow: 1;
+  margin: 5px;
+  flex-direction: column;
+}
+
+.cardpanier1 h2 {
+  font-weight: 500;
+  font-family: Favorit;
+  font-size: 18px;
+  flex-grow: 1;
+  font: uppercase;
+  margin-bottom: 2px;
+}
+
+.cardpanier1 p {
+  font-family: Favorit;
+  font-weight: lighter;
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.cardpanier1 img {
+  width: 220px;
+  height: 60px;
+}
+
+.cardpanier2 {
+  display: flex;
+  max-width: 400px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  flex-grow: 1;
+  margin: 5px;
+  flex-direction: column;
+}
+
+.cardpanier2 img {
+  width: 200px;
+  height: 200px;
+}
+
+.cardpanier2 h2 {
+  font-weight: 500;
+  font-family: Favorit;
+  font-size: 18px;
+  flex-grow: 1;
+  margin-bottom: 2px;
+}
+
+.cardpanier2 p {
+  font-family: Favorit;
+  font-weight: lighter;
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.cardpanier3 {
+  display: flex;
+  max-width: 400px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  flex-grow: 1;
+  margin: 5px;
+  flex-direction: column;
+}
+
+.cardpanier3 img {
+  width: 170px;
+  height: 30px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  £
+
+}
+
+.cardpanier3 h2 {
+  font-weight: 500;
+  font-family: Favorit;
+  font-size: 18px;
+  flex-grow: 1;
+  margin-bottom: 2px;
+}
+
+.cardpanier3 p {
+  font-family: Favorit;
+  font-weight: lighter;
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+
+.cardpanier3 h3 {
+  font-family: Favorit;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.cardpanier4 {
+  display: flex;
+  max-width: 400px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  flex-grow: 1;
+  margin: 5px;
+  flex-direction: column;
+}
+
+.cardpanier4 p {
+  font-family: Favorit;
+  font-weight: lighter;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.cardpanier4 h3 {
+  font-family: Favorit;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 12px;
+}
 
 /* Card */ 
 
