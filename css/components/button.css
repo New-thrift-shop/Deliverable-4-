@@ -115,7 +115,7 @@
 	color: white;
 	border-radius: 6px;
 	height: 40px;
-	width: 120px;
+	width: 50px;
 	padding-left: 30px;
 	padding-right: 40px;
 	font-size: 16px;
@@ -135,7 +135,7 @@
 	color: white;
 	border-radius: 6px;
 	height: 60px;
-	width: 300px;
+	width: 270px;
 	padding-left: 48px;
 	font-size: 16px;
 	font-family: favorit;
@@ -153,7 +153,7 @@
 	color: white;
 	border-radius: 6px;
 	height: 60px;
-	width: 150px;
+	width: 100px;
 	padding-left: 47px;
 	font-size: 16px;
 	font-family: favorit;
@@ -244,4 +244,23 @@
 	border-color: #E5E5E5;
 	border: none;
 	text-align: center;
+}
+
+/* Button continuer page vente */ 
+
+.button-continuer2 {
+	background-color: black;
+	color: white;
+	border-radius: 6px;
+	height: 40px;
+	width: 120px;
+	padding-left: 48px;
+	font-size: 16px;
+	font-family: favorit;
+	font-weight: lighter;
+	display: flex;
+	align-items: center;
+	margin-left: 635px;
+	margin-top: 40px;
+	margin-bottom: 30px;
 }

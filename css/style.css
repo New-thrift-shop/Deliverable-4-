@@ -5,6 +5,7 @@
 @import url(components/container.css);
 @import url(components/bar-blue.css);
 @import url(components/dropdown-menu.css);
+@import url(components/form.css);
 
 /* General style rules for fonts and colors */
 body {
@@ -66,14 +67,25 @@ font-weight: bold;
 font-size: 20px;
  }
 
+.gras2 { 
+  font-weight: bold;
+  font-size: 25px;
+ }
+
 .moyen {
   font-size: 18px;
-
 }
 
 .milieu {
   margin-top: 130px;
   margin-bottom: 130px;
+}
+
+.milieu2 {
+  margin-top: 30px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 60px;
 }
 
 /* Fin commande.html*/

@@ -1,0 +1,31 @@
+.form {
+	display: center;
+	margin-top: 5px;
+}
+
+.form p {
+	color: #002FA7;
+	font-family: Favorit;
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.formbox {
+	width: 180px;
+}
+
+.forms2 {
+	display: center;
+	margin-top: 5px;
+}
+
+.form2 p {
+	color: #002FA7;
+	font-family: Favorit;
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
