@@ -16,7 +16,7 @@
 	width: 180px;
 }
 
-.forms2 {
+.form2 {
 	display: center;
 	margin-top: 5px;
 }
@@ -28,4 +28,9 @@
 	font-size: 25px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+.form2 label {
+	font-family: Favorit;
+	font-weight: lighter;
 }

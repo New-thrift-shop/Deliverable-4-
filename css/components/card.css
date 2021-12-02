@@ -317,6 +317,7 @@
   height: 250px;
   border-radius: 6px;
 }
+
 /* Sac card */ 
 .cardsac h2 {
   font-family: Favorit;
@@ -324,3 +325,26 @@
   flex-grow: 1;
   text-align: left;
   margin-left: 30px;
+}
+
+/* Formulaire vente cards */ 
+
+.formulairecards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  align-items: center;
+ }
+
+ .formulairecards2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  flex-direction: column;
+  margin: 10px;
+  margin-left: 400px;
+  max-width: 700px;
+  text-justify: inter-word;
+  text-align: justify;
+ }
+

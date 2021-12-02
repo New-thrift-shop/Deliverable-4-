@@ -72,6 +72,11 @@ font-size: 20px;
   font-size: 25px;
  }
 
+.gras3 { 
+  font-weight: bold;
+  font-size: 25px;
+ }
+
 .moyen {
   font-size: 18px;
 }
@@ -86,6 +91,13 @@ font-size: 20px;
   margin-left: 120px;
   margin-right: 120px;
   margin-bottom: 60px;
+}
+
+.milieu3 {
+  margin-top: 20px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 20px;
 }
 
 /* Fin commande.html*/
