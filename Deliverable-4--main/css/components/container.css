@@ -1,0 +1,59 @@
+.container {
+  position: relative;
+  margin: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  display: inline-flex;
+  flex-grow: 1;
+}
+
+.container img {
+  height: 400px;
+  width: 700px;
+  border-radius: 3px;
+}
+.container h3 {
+  font-weight: 400;
+  font-family: Favorit;
+  font-size: 17px;
+  flex-grow: 1;
+  margin-top:3px;
+  margin-right:6px;
+  margin-bottom:0;
+  margin-left:6px;
+}
+
+.container p {
+  font-family: Favorit;
+  font-weight: lighter;
+  font-size: 14px;
+  margin-top:0;
+  margin-right:10px;
+  margin-bottom:3px;
+  margin-left:10px;
+}
+.text-block {
+  position: absolute;
+  bottom: 25px;
+  left: 20px;
+  background-color: white;
+  color: black;
+  align-items: center;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}

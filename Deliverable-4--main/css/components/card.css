@@ -1,0 +1,350 @@
+/* Brand card */
+
+.brandcard {
+  display: flex;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  max-width: 300px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  flex-basis: 150px;
+  flex-grow: 1;
+  margin: 10px;
+  flex-direction: column;
+}
+
+.brandcard img {
+  width: 150px;
+  height: 150px;
+  border-radius: 6px;
+}
+
+.brandcard h3 {
+  font-weight: lighter;
+  font-family: Favorit;
+  font-size: 18px;
+  flex-grow: 1;
+}
+
+/* Product card */ 
+.productcard {
+  display: flex;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  max-width: 300px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  flex-basis: 150px;
+  flex-grow: 1;
+  margin: 10px;
+  flex-direction: column;
+}
+
+.productcard img {
+  width: 150px;
+  height: 150px;
+  border-radius: 6px;
+}
+.productcard h3 {
+  font-weight: 400;
+  font-family: Favorit;
+  font-size: 18px;
+  flex-grow: 1;
+}
+
+.productcard p {
+  font-family: Favorit;
+  font-weight: lighter;
+  font-size: 15px;
+  margin-top:1px;
+  margin-right:5px;
+  margin-bottom:1em;
+  margin-left:0;
+}
+.price {
+  color: red;
+  font-size: 15px;
+  font-family: Favorit;
+  margin-top:0px;
+  margin-right:5px;
+  margin-bottom:0em;
+  margin-left:0;
+}
+
+/* Cards*/
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Hermes Card */ 
+
+.hermescards {
+  display: flex;
+}
+
+.cardpicture {
+  display: inline-flex;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+  margin: 0px;
+  max-width: 600px;
+}
+
+.cardpicture img {
+  width: 500px;
+  height: 500px;
+  border-radius: 6px;
+}
+
+.cardtext {
+  display: inline-flex;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  flex-basis: 150px;
+  flex-grow: 1;
+  margin: 0px;
+  flex-direction: column;
+  max-width: 1000px;
+}
+
+.cardtext h3 {
+  font-weight: 400;
+  font-family: Favorit;
+  font-size: 18px;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.cardtext p {
+  font-family: Favorit;
+  font-weight: lighter;
+  font-size: 15px;
+  flex-direction: column;
+}
+.cardtext h4 {
+  font-family: Favorit;
+  font-weight: lighter;
+  font-size: 15px;
+  color: red;
+  flex-direction: column;
+}
+
+.cardtext h5 {
+  font-family: Favorit;
+  font-weight: lighter;
+  font-size: 15px;
+  color: #01D758;
+  flex-direction: column;
+}
+
+/*panier*/
+
+.paniercards{ 
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  align-items: center;
+ }
+
+.cardpanier1 {
+  display: flex;
+  max-width: 400px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  flex-basis: 150px;
+  flex-grow: 1;
+  margin: 5px;
+  flex-direction: column;
+}
+
+.cardpanier1 h2 {
+  font-weight: 500;
+  font-family: Favorit;
+  font-size: 18px;
+  flex-grow: 1;
+  font: uppercase;
+  margin-bottom: 2px;
+}
+
+.cardpanier1 p {
+  font-family: Favorit;
+  font-weight: lighter;
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.cardpanier1 img {
+  width: 220px;
+  height: 60px;
+}
+
+.cardpanier2 {
+  display: flex;
+  max-width: 400px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  flex-grow: 1;
+  margin: 5px;
+  flex-direction: column;
+}
+
+.cardpanier2 img {
+  width: 200px;
+  height: 200px;
+}
+
+.cardpanier2 h2 {
+  font-weight: 500;
+  font-family: Favorit;
+  font-size: 18px;
+  flex-grow: 1;
+  margin-bottom: 2px;
+}
+
+.cardpanier2 p {
+  font-family: Favorit;
+  font-weight: lighter;
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.cardpanier3 {
+  display: flex;
+  max-width: 400px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  flex-grow: 1;
+  margin: 5px;
+  flex-direction: column;
+}
+
+.cardpanier3 img {
+  width: 170px;
+  height: 30px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  £
+
+}
+
+.cardpanier3 h2 {
+  font-weight: 500;
+  font-family: Favorit;
+  font-size: 18px;
+  flex-grow: 1;
+  margin-bottom: 2px;
+}
+
+.cardpanier3 p {
+  font-family: Favorit;
+  font-weight: lighter;
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+
+.cardpanier3 h3 {
+  font-family: Favorit;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.cardpanier4 {
+  display: flex;
+  max-width: 400px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  flex-grow: 1;
+  margin: 5px;
+  flex-direction: column;
+}
+
+.cardpanier4 p {
+  font-family: Favorit;
+  font-weight: lighter;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.cardpanier4 h3 {
+  font-family: Favorit;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 12px;
+}
+
+/* Card */ 
+
+.card {
+  display: flex;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  max-width: 300px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+  flex-basis: 150px;
+  flex-grow: 1;
+  margin: 10px;
+  flex-direction: column;
+}
+
+.card img {
+  width: 250px;
+  height: 250px;
+  border-radius: 6px;
+}
+
+/* Sac card */ 
+.cardsac h2 {
+  font-family: Favorit;
+  font-weight: 400;
+  flex-grow: 1;
+  text-align: left;
+  margin-left: 30px;
+}
+
+/* Formulaire vente cards */ 
+
+.formulairecards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  align-items: center;
+ }
+
+ .formulairecards2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  flex-direction: column;
+  margin: 10px;
+  margin-left: 400px;
+  max-width: 700px;
+  text-justify: inter-word;
+  text-align: justify;
+ }
+
